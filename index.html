@@ -44,6 +44,15 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img
+            class="img-fluid solstice-logo"
+            alt=""
+            width="50"
+            id="solsticeLogo"
+            src="img/solsticeAR_notext.png"
+          />
+        </a>
         <a class="navbar-brand js-scroll-trigger" href="#page-top"
           >Solstice AR</a
         >
@@ -75,10 +84,11 @@
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Log in</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="privacy.html">Privacy Policy</a>
+              <a
+                class="nav-link js-scroll-trigger"
+                href="https://solsticear-admin.herokuapp.com/login"
+                >Log in</a
+              >
             </li>
           </ul>
         </div>
@@ -138,7 +148,7 @@
               Download the app and see what AR experiences are available now.
             </h2>
             <p>
-              Our app is available on any mobile device! Download now to get
+              Our app is available on any Android device! Download now to get
               started!
             </p>
             <div class="badges">
@@ -200,7 +210,8 @@
                     <i class="icon-camera text-primary"></i>
                     <h3>Custom content</h3>
                     <p class="text-muted">
-                      Upload images and videos that can be shared with anyone!
+                      Upload texts, images and videos that can be shared with
+                      anyone!
                     </p>
                   </div>
                 </div>
@@ -211,8 +222,7 @@
                     <i class="icon-present text-primary"></i>
                     <h3>Free to Use</h3>
                     <p class="text-muted">
-                      As always, Solstice AR is free to download and use for any
-                      purpose!
+                      Solstice AR is free to download and use for any purpose!
                     </p>
                   </div>
                 </div>
@@ -236,8 +246,10 @@
     <section class="cta">
       <div class="cta-content">
         <div class="container">
-          <h2>Experience AR!<br />Register today!</h2>
-          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger"
+          <h2>Make your own AR experience.<br />Register today!</h2>
+          <a
+            href="https://solsticear-admin.herokuapp.com/register"
+            class="btn btn-outline btn-xl js-scroll-trigger"
             >Register here</a
           >
         </div>
@@ -274,18 +286,18 @@
 
     <footer>
       <div class="container">
-        <p>&copy; Solstice AR. No Rights Reserved.</p>
-        <!-- <ul class="list-inline">
+        <p>&copy; Solstice AR.</p>
+        <ul class="list-inline">
           <li class="list-inline-item">
-            <a href="#">Privacy</a>
+            <a href="privacy.html">Privacy Policy</a>
           </li>
-          <li class="list-inline-item">
+          <!-- <li class="list-inline-item">
             <a href="#">Terms</a>
           </li>
           <li class="list-inline-item">
             <a href="#">FAQ</a>
-          </li>
-        </ul> -->
+          </li> -->
+        </ul>
       </div>
     </footer>
 
