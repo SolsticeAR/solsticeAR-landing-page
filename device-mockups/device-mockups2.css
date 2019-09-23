@@ -324,7 +324,7 @@
 
 .device-mockup[data-device="iphone6_plus"][data-color="white"] > .device,
 .device-mockup[data-device="iphone6_plus"][data-orientation="portrait"][data-color="white"] > .device {
-	background-image: url("iphone_6_plus/iphone_6_plus_white_port.png");
+	background-image: url("galaxy_s5/galaxy_s5_port_white.png");
 }
 
 .device-mockup[data-device="iphone6_plus"][data-orientation="landscape"][data-color="white"] > .device {
